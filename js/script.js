@@ -25,7 +25,7 @@ $(function() {
 });
 
 
-//OWL CAROSEL TESTIMONIAL
+//OWL CAROUSEL TESTIMONIAL
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
