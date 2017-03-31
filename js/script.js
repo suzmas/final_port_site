@@ -1,8 +1,17 @@
 
+// Collapse hamburger when nav link is clicked
+$("#bs-example-navbar-collapse-1 li a").on("click", function() {
+  if ($("#hamburger-toggle").attr("aria-expanded") === "true") {
+    $("#hamburger-toggle").trigger("click");
+  }
+});
+
+
 //SMOOTH PAGE SCROLL
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
@@ -38,7 +47,7 @@ $('.owl-carousel').owlCarousel({
 
 $(document).ready(
 
-  function() { 
+  function() {
 
     $("html").niceScroll({
     	cursorcolor:"#f74d65",
@@ -55,7 +64,7 @@ $(document).ready(
 new WOW().init();
 
 
-    
+
 /*Preloader*/
 //<![CDATA[
 $(window).load(function() { // makes sure the whole site is loaded
@@ -64,5 +73,3 @@ $(window).load(function() { // makes sure the whole site is loaded
   $('body').delay(350).css({'overflow':'visible'});
 })
 //]]>
-
-
