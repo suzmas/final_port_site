@@ -50,9 +50,9 @@ $(document).ready(
   function() {
 
     $("html").niceScroll({
-    	cursorcolor:"#f74d65",
+    	cursorcolor:"#ba9a9a",
     	scrollspeed :"100",
-    	cursorborder:"1px solid #f74d65",
+    	cursorborder:"1px solid #ba9a9a",
     	horizrailenabled: "false",
     	cursorborderradius: "0px"
     });
