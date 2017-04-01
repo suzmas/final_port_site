@@ -85,6 +85,7 @@ header{
 }
 .about_us_p {
 	max-width: 38em;
+	padding-bottom: 60px;
 }
 
 /*Services*/
@@ -228,7 +229,7 @@ padding-top: 120px;
 .single_count h3{
 font-family: 'Montserrat', sans-serif;
 color: #fff;
-font-size: 40px;
+font-size: 36px;
 font-weight: bold;
 margin-bottom: 0px;
 }
@@ -332,7 +333,6 @@ text-transform: uppercase;
 	margin-bottom: 100px;
 }
 #project-fa {
-	margin-bottom: 30px !important;
 	font-size: 1.5em;
 }
 #project-fa > a i {
